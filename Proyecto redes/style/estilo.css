@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    /*Formato de texto*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*color del fondo del cuerpo*/
+    background-color: #df34345b;
+}
+header{
+    text-align: center;
+    padding-block: 1%;
+}
+
+main{
+    margin-left: 1%;
+}
+/*footer{
+    /*color del del fondo del pie
+    background-color: #ffffff;
+    padding-block: 3%;
+    
+    display: grid;
+    grid-template-columns: 
+    repeat(
+        auto-fit,
+        minmax(300px, 1fr)
+    );
+    gap: 32px;
+    justify-content: space-between;
+}*/
+footer img{
+    padding-left: 80px;
+    width:80px;
+    height: auto;
+    /*Color del degradado del escudo del coegio*/
+    filter: drop-shadow(
+        0 0 10px rgba(0, 0, 0, 0.8)
+    )
+}
+footer .fingen2{
+    text-align: center;
+}
+footer .fingen3{
+    text-align: center;
+}
+.fingen3 p{
+    color: #000000;
+}
+h1{
+    margin: 0;
+    font-size: 2rem;
+    color: #000000;
+}
+h3{
+    margin: 0;
+    font-size: 2rem;
+    color: #000000;
+}
+.fingen2 p{
+    color: #000000;
+}
+#componentes {
+    width: 80%;
+    height: auto;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 
+    repeat(
+        auto-fit,
+        minmax(300px, 1fr)
+    );
+    gap: 32px;
+    justify-content: space-between;
+}
+.card{
+    width: 300px;
+    height: 430px;
+    box-shadow: 10px 10px 5px 3px #524e4e;
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 2px;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card h3{
+    text-align: center;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+#Archivos a{
+    color: #0A090C;
+}
+.fingen3 a{
+    color: #ffffff;
+}
+/*NO TOQUEN LAS MEDIA QUERY!!!*/
+@media (max-witd: 960x){
+    footer .fingen3{
+        padding-right: 100px;
+    }
+}
+@media (max-width: 750px){
+    h1{
+        font-size: 1.5rem;
+    }
+    header{
+        padding-block: 2.5%;
+    }
+}
+@media (max-width: 630px){
+    footer .fingen1{
+        text-align: center;
+    }
+    footer img{
+        padding-left: 0px;
+        width:80px;
+        height: auto;
+        
+        filter: drop-shadow(
+            0 0 10px rgba(196, 186, 186, 0.8)
+        )
+    }
+}
+@media (max-width: 400px){
+    h1{
+        font-size: 1.1rem;
+    }
+    header{
+        padding-block: 5%;
+    }
+    h2{
+        font-size: 1rem;
+    }
+}
